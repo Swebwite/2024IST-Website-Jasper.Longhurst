@@ -38,3 +38,25 @@ DIV {border: 1px solid #000;}
 }
 
 /*button CSS below*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.button-container {
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	align-items: center;
+}
+
+.button {
+	appearance: none;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
