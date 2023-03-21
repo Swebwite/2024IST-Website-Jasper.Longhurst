@@ -50,6 +50,7 @@ DIV {border: 1px solid #000;}
 	display: flex;
 	width: 100%;
 	min-height: 100vh;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -59,4 +60,22 @@ DIV {border: 1px solid #000;}
 	border: none;
 	outline: none;
 	cursor: pointer;
+	
+	padding: 20px 40px;
+	border-radius: 8px;
+	color: #212121;
+	font-size: 28px;
+	font-weight:400;
+	margin: 0 15px;
+	transition: 0.4s;
+}
+
+.button-1 {
+	color: #FFCE00;
+	border: 3px solid #FFCE00;
+}
+
+.button-1:hover {
+	color: #FFF;
+	background-color: #FFCE00;
 }
