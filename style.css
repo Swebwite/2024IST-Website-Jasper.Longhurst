@@ -79,3 +79,29 @@ DIV {border: 1px solid #000;}
 	color: #FFF;
 	background-color: #FFCE00;
 }
+
+.button-2 {
+	color: #FE4880;
+	border: 3px solid #FE4880;
+	background-image: linear-gradient(to right, transparent 50%, #FE4880 50%);
+	background-size: 210%;
+	background-position: 0%;
+}
+
+.button-2:hover {
+	color: #FFF;
+	background-position: 99%;
+}
+
+.button-3 {
+	color: #68DEA0;
+	border: 3px solid #68DEA0;
+	background-image: linear-gradient(to top, #68DEA0 50%, transparent 50%);
+	background-size: 100% 200%;
+	background-position: 0% 0%;
+}
+
+.button-3:hover {
+	color: #FFF;
+	background-position: 0% 100%;
+}
